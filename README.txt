@@ -1,15 +1,8 @@
-=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
-CIS 120 Game Project README
-PennKey: aorosz
-=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
-
 ===================
 =: Core Concepts :=
 ===================
 
-- List the four core concepts, the features they implement, and why each feature
-  is an appropriate use of the concept. You may copy and paste from your proposal
-  document if you did not change the features you are implementing.
+The four core concepts and the features they implement.
 
 Concept 1: Appropriately modeling state using 2-D arrays or collections.
 
@@ -22,7 +15,6 @@ sort my high scores according to their values.
 
 
 Concept 2: Object-oriented design using inheritance and subtyping
-
 
 I have a class for all my objects but I have a subtype for all of them, Player, Car, Star and 
 Explosion.
@@ -47,11 +39,8 @@ I will have a text file where I will keep track of the top 10 scores and I will 
 
 
 =========================
-=: Your Implementation :=
+=: My Implementation :=
 =========================
-
-- Provide an overview of each of the classes in your code, and what their
-  function is in the overall game.
   
     Game: My Game class is the main class of the game. Here I instantiate the Gamecourt and
     start the game.
@@ -77,33 +66,3 @@ I will have a text file where I will keep track of the top 10 scores and I will 
     GameTest and IOTest are both class with JUnits.
     
     Direction: This class includes all of the possible directions the objects can move.
-
-
-- Revisit your proposal document. What components of your plan did you end up
-  keeping? What did you have to change? Why?
-
-    I kept most of my components. I decided to not use a 2-D array for the grid of my Gamecourt, 
-    though. Instead, I decided to use Collections to keep track of all the Star and Car Objects,
-    as well as the high scores.
-
-- Were there any significant stumbling blocks while you were implementing your
-  game (related to your design, or otherwise)?
-  
-    I was struggling to implement IO a lot.
-
-
-- Evaluate your design. Is there a good separation of functionality? How well is
-  private state encapsulated? What would you refactor, if given the chance?
-
-    My private state is not encapsulated too well. I decided to make most of my variables public
-    because I wanted to test my program with JUnit. I needed to access my variables in GameCourt,
-    though.
-
-
-========================
-=: External Resources :=
-========================
-
-- Cite any external resources (libraries, images, tutorials, etc.) that you may
-  have used while implementing your game.
-
