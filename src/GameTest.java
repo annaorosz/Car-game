@@ -1,10 +1,12 @@
-import static org.junit.Assert.*;
+/** 
+ * Car Game
+ * Author: Anna Orosz
+ */
 
+import static org.junit.Assert.*;
 import java.io.IOException;
 import java.util.HashSet;
-
 import javax.swing.JLabel;
-
 import org.junit.Test;
 
 
