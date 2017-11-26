@@ -1,5 +1,6 @@
-/** CIS 120 Game HW
- * Anna Orosz
+/** 
+ * Car Game
+ * Author: Anna Orosz
  */
 
 import java.awt.*;
